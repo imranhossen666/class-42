@@ -1,0 +1,38 @@
+
+nav {
+    padding: 30px 0;
+    background-color: #fff;
+    box-shadow: 2px 1px 5px gray;
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    ul {
+        li {
+            a {
+                margin: 0 20px;
+                display: inline-block;
+                text-transform: uppercase;
+                font-family: 'Raleway', sans-serif;
+                font-weight: 600 !important;
+                transition: 0.5s;
+                -webkit-transition: 0.5s;
+                -moz-transition: 0.5s;
+                -ms-transition: 0.5s;
+                -o-transition: 0.5s;
+                &:hover {
+                    color: #BAAC8F !important;
+                }
+            }
+        }
+    }
+}
+.nav-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #555555;
+    text-shadow: 2px 2px 5px #BAAC8F;
+    text-transform: uppercase;
+}

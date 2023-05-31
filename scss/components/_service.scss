@@ -1,0 +1,110 @@
+#service {
+    padding: 70px 0;
+    .service-banner {
+        background: url(https://demo.klayemorrison.com/alpha-hotel/images/1500x800-5.jpg) no-repeat center / cover;
+        padding: 250px 0;
+        position: relative;
+        .service-overly {
+            position: absolute;
+            background-color: rgba(0, 0, 0, 0.562);
+            top: 50%;
+            right: 100px;
+            width: 400px;
+            padding: 30px 20px;
+            text-align: center;
+            border-radius: 20px;
+            color: #fff;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            h6 {
+                color: #BAAC8F;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .service-items {
+        text-align: center;
+        margin-top: 70px;
+        i {
+            font-size: 45px;
+            color: #BAAC8F;
+        }
+        h3 {
+            color: #555555;
+            margin-top: 20px;
+            font-family: 'Raleway', sans-serif;
+        }
+        p {
+            line-height: 30px;
+            font-size: 17px;
+            color: #555555;
+            font-family: 'Raleway', sans-serif;
+        }
+    }
+    .service-img1 {
+        margin-top: 70px;
+        position: relative;
+        transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        &:hover .service-img-overly {
+            opacity: 1;
+        }
+        img {
+            width: 100%;
+        }
+        .service-img-overly {
+            position: absolute;
+            top: 50%;
+            left: 50px;
+            width: 300px;
+            background-color: rgba(0, 0, 0, 0.452);
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            opacity: 0;
+            transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -moz-transition: 0.5s;
+            -ms-transition: 0.5s;
+            -o-transition: 0.5s;
+            h6 {
+                color: #BAAC8F;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .service-text1 {
+        margin-top: 130px;
+        padding-left: 40px;
+        h3 {
+            font-family: 'Raleway', sans-serif;
+            color: #555555;
+            line-height: 40px;
+        }
+        p {
+            line-height: 30px;
+            font-size: 18px;
+            color: #555555;
+        }
+    }
+}

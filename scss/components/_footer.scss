@@ -1,0 +1,38 @@
+
+footer {
+    padding: 70px 0;
+    .footer-text {
+        text-align: center;
+        i {
+            font-size: 60px;
+            color: #BAAC8F;
+            margin-bottom: 30px;
+        }
+        h3 {
+            color: #555555;
+            font-family: 'Raleway', sans-serif;
+        }
+        .star {
+            i{
+                font-size: 20px;
+                margin-bottom: 30px;
+            }
+        }
+        p {
+            font-family: 'Raleway', sans-serif;
+            font-size: 17px;
+            color: #555555;
+        }
+    }
+}
+
+.copy {
+    text-align: center;
+    background-color: #F5F5F5;
+    height: 70px;
+    line-height: 70px;
+    span {
+        display: inline-block;
+        color: #BAAC8F;
+    }
+}

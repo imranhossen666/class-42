@@ -1,0 +1,380 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav {
+  padding: 30px 0;
+  background-color: #fff;
+  box-shadow: 2px 1px 5px gray;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+nav ul li a {
+  margin: 0 20px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600 !important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+nav ul li a:hover {
+  color: #BAAC8F !important;
+}
+
+.nav-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: #555555;
+  text-shadow: 2px 2px 5px #BAAC8F;
+  text-transform: uppercase;
+}
+
+#banner {
+  overflow: hidden;
+  height: 550px;
+}
+#banner .banner-b {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+  position: relative;
+}
+#banner .banner-b .banner-text {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+#banner .banner-b .banner-text h1 {
+  background-color: #fff;
+  color: #555555;
+  font-family: "Raleway", sans-serif;
+  padding: 10px 30px;
+  box-shadow: 3px 3px 8px gray;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#banner .banner-b .banner-text h1:hover {
+  color: #BAAC8F;
+}
+#banner img {
+  width: 100%;
+  height: 100%;
+}
+
+#about {
+  padding: 70px 0;
+}
+#about .about-head {
+  text-align: center;
+}
+#about .about-head h3 {
+  font-size: 35px;
+  font-family: "Raleway", sans-serif;
+  padding: 0 150px;
+}
+#about .about-text {
+  padding: 70px 0 0 0;
+}
+#about .about-text p {
+  font-family: "Raleway", sans-serif;
+  line-height: 30px;
+}
+
+#service {
+  padding: 70px 0;
+}
+#service .service-banner {
+  background: url(https://demo.klayemorrison.com/alpha-hotel/images/1500x800-5.jpg) no-repeat center/cover;
+  padding: 250px 0;
+  position: relative;
+}
+#service .service-banner .service-overly {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.562);
+  top: 50%;
+  right: 100px;
+  width: 400px;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 20px;
+  color: #fff;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+#service .service-banner .service-overly h6 {
+  color: #BAAC8F;
+  margin-bottom: 20px;
+}
+#service .service-items {
+  text-align: center;
+  margin-top: 70px;
+}
+#service .service-items i {
+  font-size: 45px;
+  color: #BAAC8F;
+}
+#service .service-items h3 {
+  color: #555555;
+  margin-top: 20px;
+  font-family: "Raleway", sans-serif;
+}
+#service .service-items p {
+  line-height: 30px;
+  font-size: 17px;
+  color: #555555;
+  font-family: "Raleway", sans-serif;
+}
+#service .service-img1 {
+  margin-top: 70px;
+  position: relative;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#service .service-img1:hover .service-img-overly {
+  opacity: 1;
+}
+#service .service-img1 img {
+  width: 100%;
+}
+#service .service-img1 .service-img-overly {
+  position: absolute;
+  top: 50%;
+  left: 50px;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.452);
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#service .service-img1 .service-img-overly h6 {
+  color: #BAAC8F;
+  margin-bottom: 20px;
+}
+#service .service-text1 {
+  margin-top: 130px;
+  padding-left: 40px;
+}
+#service .service-text1 h3 {
+  font-family: "Raleway", sans-serif;
+  color: #555555;
+  line-height: 40px;
+}
+#service .service-text1 p {
+  line-height: 30px;
+  font-size: 18px;
+  color: #555555;
+}
+
+#accommodation {
+  padding: 70px 0;
+}
+#accommodation .accommodation-head {
+  text-align: center;
+}
+#accommodation .accommodation-head h3 {
+  color: #BAAC8F;
+  border: 1px solid #BAAC8F;
+  font-weight: 300;
+  display: inline-block;
+  padding: 10px 20px;
+}
+#accommodation .accommodation-items {
+  margin-top: 70px;
+  text-align: center;
+}
+#accommodation .accommodation-items .accommodation-inner {
+  overflow: hidden;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#accommodation .accommodation-items .accommodation-inner img {
+  width: 100%;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#accommodation .accommodation-items .accommodation-inner:hover img {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+#accommodation .accommodation-items h3 {
+  margin: 30px 0;
+  font-family: "Raleway", sans-serif;
+  color: #555555;
+}
+#accommodation .accommodation-items p {
+  color: #555555;
+  line-height: 30px;
+}
+#accommodation .accommodation-items a {
+  display: inline-block;
+  color: #fff;
+  background-color: #BAAC8F;
+  padding: 10px 30px;
+  margin-top: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#accommodation .accommodation-items a:hover {
+  padding: 10px 45px;
+}
+
+#form {
+  padding: 70px 0;
+  background-color: #555555;
+}
+#form .from-head {
+  text-align: center;
+}
+#form .from-head h3 {
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 35px;
+}
+#form .from-main {
+  text-align: center;
+  margin-top: 40px;
+}
+#form .from-main input {
+  padding: 15px 20px;
+  margin-left: -2px;
+  outline: none;
+}
+#form .from-main button {
+  width: 150px;
+  border: none;
+  outline: none;
+  padding: 16px 0;
+  margin-left: -1px;
+  color: #fff;
+  background-color: #BAAC8F;
+  font-weight: 500;
+}
+#form .form-icon {
+  text-align: center;
+  margin-top: 50px;
+}
+#form .form-icon i {
+  color: #BAAC8F;
+  border: 1px solid #BAAC8F;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-size: 20px;
+  margin: 10px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+#form .form-icon i:hover {
+  background-color: #BAAC8F;
+  color: #fff;
+}
+
+footer {
+  padding: 70px 0;
+}
+footer .footer-text {
+  text-align: center;
+}
+footer .footer-text i {
+  font-size: 60px;
+  color: #BAAC8F;
+  margin-bottom: 30px;
+}
+footer .footer-text h3 {
+  color: #555555;
+  font-family: "Raleway", sans-serif;
+}
+footer .footer-text .star i {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+footer .footer-text p {
+  font-family: "Raleway", sans-serif;
+  font-size: 17px;
+  color: #555555;
+}
+
+.copy {
+  text-align: center;
+  background-color: #F5F5F5;
+  height: 70px;
+  line-height: 70px;
+}
+.copy span {
+  display: inline-block;
+  color: #BAAC8F;
+}
